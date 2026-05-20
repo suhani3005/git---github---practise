@@ -21,3 +21,9 @@ elif choice =="3":
     break
 else:
     print("Invalid Choice")
+Two Sum - 
+Two Sum - Easy
+Two Sum - Easy - Arrays
+2026-05-20 19:38:04.994709 - Two Sum - Easy - Arrays
+Two Sum - Easy - 
+Two Sum - Easy - Arrays
