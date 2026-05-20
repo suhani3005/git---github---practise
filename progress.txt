@@ -1,0 +1,23 @@
+while true:
+    print("===== DSA Progress Tracker=====")
+    print("1. Add Solved Question")
+    print("2. View Progress")
+    print("3. Exit")
+choice = input("Enter Your choice:")
+    if choice =="1":
+        question =  input(Enter solved question name:")
+        file = open("progress.txt","r")
+        file.write(question + "\n")
+        file.close()
+        print("Question Saved Successsfully!")
+    elif choice ==="2":
+    file = open("progress.txt","r")
+    data = file.read()
+    print("\nYour Solved Questions:\n")
+    print(data)
+    file.close()
+elif choice =="3":
+    print("Exiting Program...")
+    break
+else:
+    print("Invalid Choice")
